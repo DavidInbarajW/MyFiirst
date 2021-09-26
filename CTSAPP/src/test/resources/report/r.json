@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-13T16:22:20.533Z",
+        "line": 5,
+        "name": "To Login using Positive Credentials",
+        "description": "",
+        "id": "facebook-login-feature;to-login-using-positive-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5367871600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch The Appliction",
+            "match": {
+              "location": "com.cts.stepdef.StepDefinition.launch_the_appliction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147322000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Valid Username is entered",
+            "match": {
+              "location": "com.cts.stepdef.StepDefinition.valid_username_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136921700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Valid Password is Entered",
+            "match": {
+              "location": "com.cts.stepdef.StepDefinition.valid_password_is_entered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85949800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login button is Clicked",
+            "match": {
+              "location": "com.cts.stepdef.StepDefinition.login_button_is_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify user is logged in",
+            "match": {
+              "location": "com.cts.stepdef.StepDefinition.verify_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login Feature",
+    "description": "",
+    "id": "facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FacebookFeautures/login.feature",
+    "tags": []
+  }
+]
